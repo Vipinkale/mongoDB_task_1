@@ -1,0 +1,10 @@
+/**
+ * query: The query in MQL.
+ */
+
+/* in query */
+{
+  order_line: {
+    $in: [2,5,8,10,20]
+  }
+}

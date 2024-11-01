@@ -1,0 +1,13 @@
+/**
+ * query: The query in MQL.
+ */
+
+/* And query */
+{
+  $and: [{
+    sales: {$gt: 250 }
+  },
+  {ship_mode: "Second Class"}   
+]
+  
+}

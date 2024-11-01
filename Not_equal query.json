@@ -1,0 +1,9 @@
+/**
+ * query: The query in MQL.
+ */
+/* not equal to query */
+{
+ segment: {
+   $ne: "Corporate"
+ }
+}
